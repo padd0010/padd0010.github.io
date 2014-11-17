@@ -1,6 +1,18 @@
 # TEAM
 
-Designer & developer: Julia Paddick
-Site: http:/juliapaddick.ca
+Designer & Developer: Julia Paddick
+Site: http://juliapaddick.ca
+Email: juliapaddick@juliapaddick.ca
 Twitter: @juliapaddick
 Location: Ottawa, Canada
+
+# THANKS
+
+Thank you to my web development professor Thomas J. Bradley for sharing his knowledge and passion for creating awesome sites. Also, thank you to all of those who helped me with the user testing of this website!
+
+# SITES
+
+Last update: 2014/11/17
+Standards: HTML5, CSS3
+Software: Adobe CS6, LiveReload, WhatFont, Color Oracle, Icon Slate, ImageOptim, SVGO-GUI, Total Validator
+
