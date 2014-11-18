@@ -111,13 +111,6 @@ body {
 
 /* ---------- Nav -------------------------------------------------------------------------- */
 
-h1 {
-	font-weight: 400;
-	position: fixed;
-	left: 70px;
-	top: 24px;
-}
-
 .nav li {
 	display: inline;
 	margin-right: 1rem;
@@ -128,25 +121,10 @@ h1 {
 	font-weight: 400;
 }
 
-@media only screen and (max-width: 27em) {
-	
-	h1 {
-		position: relative;
-		left: 0;
-		top: 0;	
-	}
-
-	.nav li, .nav a {
-		display: block;
-		text-align: center;
-		padding: .25rem;
-	}
-}
-
 .nav-logo {
 	position: absolute;
 	top: .6rem;
-	left: .3rem;
+	left: .6rem;
 	width: 50px;
 }
 
@@ -212,13 +190,6 @@ a {
     font-size: 130%;
   }
 
-}
-
-.hide-text {
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	display: block;
 }
 
 ul {
