@@ -3,6 +3,11 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="600px" height="600px" viewBox="0 0 600 600" enable-background="new 0 0 600 600" xml:space="preserve">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="10.7598" y1="300.084" x2="589.6104" y2="300.084">
+	<stop  offset="0" style="stop-color:#0D0A23"/>
+	<stop  offset="1" style="stop-color:#461664"/>
+</linearGradient>
+<circle fill="url(#SVGID_1_)" cx="300.185" cy="300.084" r="289.425"/>
 <path fill="#FFFFFF" d="M110.688,344.613c-64.198,69.291-1.019,206.869,109.039,139.61
 	c126.361-78.467,11.21-304.697,138.589-379.086c-137.57,26.495-91.713,214-137.57,292.468
 	C167.755,464.863,108.65,392.51,110.688,344.613L110.688,344.613z M481.352,247.469c64.2-69.29,1.02-206.868-109.039-139.611
