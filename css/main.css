@@ -1,11 +1,13 @@
 @charset "UTF-8";
 /* CSS Document */
 
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
+/* Pink – color: #C2125D */
+
+@-moz-viewport { width: device-width; scale: 1;}
+@-ms-viewport { width: device-width; scale: 1;}
+@-webkit-viewport { width: device-width; scale: 1;}
+@-o-viewport { width: device-width; scale: 1;}
+@viewport { width: device-width; scale: 1;}
 
 *, *:before, *:after {
     -moz-box-sizing: border-box;
@@ -17,8 +19,10 @@ html {
 	-moz-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
+	-o-text-size-adjust: 100%;
     text-size-adjust: 100%;
 	font: normal 100%/1.5 'Droid Sans', sans-serif;
+	color: #0E0A26;
 }
 
 body {
@@ -40,23 +44,24 @@ body {
 .circular {
 	width: 300px;
 	height: 300px;
+	background: url(../images/julia-paddick.png) center no-repeat;
+	margin: 1.5rem auto;
+	border: thick solid #2CD2C1;
 	border-radius: 150px;
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
-	background: url(http://placehold.it/450x450) center no-repeat;
-	margin: 1.5rem auto;
+	-o-border-radius: 150px;
+	-ms-border-radius: 150px;
 }
 
-@media only screen and (max-width: 30em) {
+@media only screen and (max-width: 22em) {
 
 	.circular {
 		width: 200px;
 		height: 200px;
-		border-radius: 150px;
-		-webkit-border-radius: 150px;
-		-moz-border-radius: 150px;
-		background: url(http://placehold.it/450x450) center no-repeat;
+		background: url(../images/julia-paddick-200.png) center no-repeat;
 		margin: auto;
+		
 	}
 	
 }
@@ -111,6 +116,10 @@ body {
 
 /* ---------- Nav -------------------------------------------------------------------------- */
 
+.nav-link {
+	display: block;
+}
+
 .nav li {
 	display: inline;
 	margin-right: 1rem;
@@ -123,9 +132,8 @@ body {
 
 .nav-logo {
 	position: absolute;
-	top: .6rem;
-	left: .6rem;
-	width: 50px;
+	left: .3rem;
+	width: 80px;
 }
 
 .masthead {
@@ -133,6 +141,7 @@ body {
 	top: 0;
 	left: 0;
 	width: 100%;
+	box-shadow: 0px 4px 5px 0 rgba(0,0,0,.4);
 }
 
 .masthead, .masthead a, .masthead a:visited, masthead a:link {
@@ -140,7 +149,7 @@ body {
 }
 
 .masthead a:hover, .masthead a:active, .masthead a:focus {
-	color: #999;
+	color: #C2125D;
 }
 
 a {
@@ -150,10 +159,56 @@ a {
 	font-weight: 700;
 }
 
+@media only screen and (max-width: 60em) {
+
+	.nav-logo {
+	width: 70px;
+	}
+
+}
+
+@media only screen and (max-width: 20em) {
+
+	.nav-logo {
+		width: 60px;
+	}
+	
+	html {
+   	 font-size: 90%;
+	}
+
+}
+
+@media only screen and (max-width: 16em) {
+
+	.nav-logo {
+		width: 53px;
+		left: 0rem;
+	}
+
+}
+
 /* ---------- Section Styles --------------------------------------------------------------- */
 
+.section-about {
+	background: url(../images/stars-dark.png);
+	color: #FFF;
+}
+
 .section-dark {
-	background-color: #666;
+	background-color: #000;
+}
+
+.section-home{
+	background: transparent url("../images/north.jpg") no-repeat center top;
+	background-size: cover;
+	height: 43rem;
+	padding-top: 12rem;
+}
+
+.section-footer {
+	background-color: #000;
+	color: #FFF;
 }
 
 .section-medium {
@@ -167,28 +222,27 @@ a {
 
 /* ---------- Type ------------------------------------------------------------------------- */
 
-
 @media only screen and (min-width: 60em) {
 
-  html {
-    font-size: 110%;
-  }
+	html {
+		font-size: 110%;
+	}
 
 }
 
 @media only screen and (min-width: 90em) {
 
-  html {
-    font-size: 120%;
-  }
+	html {
+		font-size: 120%;
+	}
 
 }
 
 @media only screen and (min-width: 120em) {
 
-  html {
-    font-size: 130%;
-  }
+	html {
+		font-size: 130%;
+	}
 
 }
 
@@ -208,7 +262,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 p {
-	max-width: 65%;
+	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -253,6 +307,7 @@ h5, .mega {
 h6, .kilo {
   font-size: 1.0000rem;
   line-height: 1.5000;
+  text-transform: uppercase;
 }
 
 small, .milli {
@@ -291,6 +346,10 @@ sub {
 
 .text-center {
   text-align: center;
+}
+
+.text-justify {
+	text-align: justify;
 }
 
 .normal {
@@ -333,6 +392,10 @@ sub {
   padding-top: 3.0000rem;
 }
 
+.pad-top-triple, .pad-t-3 {
+  padding-top: 4.5rem;
+}
+
 .pad-bottom-double, .pad-b-2 {
   padding-bottom: 3.0000rem;
 }
@@ -370,6 +433,23 @@ sub {
 .gutter-double, .gutter-2 {
   padding-left: 3.0000rem;
   padding-right: 3.0000rem;
+}
+
+.pink {
+	color: #C2125D;
+	padding-top: 4rem;
+}
+
+@media only screen and (max-width: 62em) {
+
+	.pink {
+		text-align: center;
+	}
+	
+	.grid p {
+		margin: auto 10%;
+	}
+	
 }
 
 /* ---------- Grids ------------------------------------------------------------------------- */
@@ -419,8 +499,14 @@ sub {
 	.unit-m-1-3 {
 		width: 33.3333%;
 	}
+	
+	.unit-m-2-3 {
+		width: 66.6666%;
+	}
+	
+}
 
-@media only screen and (min-width: 50em) {
+@media only screen and (min-width: 62em) {
 	
 	.unit-l-1-3 {
 		width: 33.3333%;	
@@ -429,4 +515,9 @@ sub {
 	.unit-2-3 {
     	width: 66.6666%;
 	}
+	
+	.grid p {
+		margin-right: 10%;
+	}
+	
 }
