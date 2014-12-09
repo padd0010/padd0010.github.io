@@ -32,6 +32,12 @@ body {
 	margin: 0;
 }
 
+.error {
+	display: block;
+	width: 70%;
+	margin: 1rem auto;
+}
+
 .img-flex {
 	display: block;
 	width: 100%;
