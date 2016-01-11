@@ -2,7 +2,7 @@
 
 Designer & Developer: Julia Paddick
 Site: http://juliapaddick.ca
-Email: juliapaddick@juliapaddick.ca
+Email: juliapaddick35@gmail.com
 Twitter: @juliapaddick
 Location: Ottawa, Canada
 
@@ -12,7 +12,7 @@ Thank you to my web development professor Thomas J. Bradley for sharing his know
 
 # SITES
 
-Last update: 2014/11/17
+Last update: 2016/01/07
 Standards: HTML5, CSS3
-Software: Adobe CS6, LiveReload, WhatFont, Color Oracle, Icon Slate, ImageOptim, SVGO-GUI, Total Validator
+Software: Adobe CS6, Brackets, LiveReload, WhatFont, Color Oracle, Icon Slate, ImageOptim, SVGO-GUI, Total Validator
 
